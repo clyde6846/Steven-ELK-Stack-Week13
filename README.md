@@ -95,15 +95,15 @@ SSH into the control node and follow the steps below:
 
 _The commands needed to run the Ansible configuration for the Elk-Server are:
 
-ssh azadmin@20.42.113.25
-(type in the password for azadmin)
-sudo docker ps -a
-sudo docker start container (name of the container)
-sudo docker attach container (name of the container)
-cd /etc/ansible/ (this is where the YML scripts and playbooks are located on the container)
-ansible-playbook install-elk.yml
-cd /etc/ansible/roles/
+- ssh azadmin@20.42.113.25
+- (type in the password for azadmin)
+- sudo docker ps -a
+- sudo docker start container (name of the container)
+- sudo docker attach container (name of the container)
+- cd /etc/ansible/ (this is where the YML scripts and playbooks are located on the container)
+- ansible-playbook install-elk.yml
+- cd /etc/ansible/roles/
 ### NOTE: Ensure all files are properly placed before running the ansible-playbooks._
-ansible-playbook filebeat-playbook.yml
-ansible-playbook metricbeat-playbook.yml
-navigate http://52.252.131.6:5601/
+- ansible-playbook filebeat-playbook.yml
+- ansible-playbook metricbeat-playbook.yml
+- navigate to  http://52.252.131.6:5601/ to verify correct installation.
