@@ -41,7 +41,6 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses (my private workstation):
-- _TODO: Add whitelisted IP addresses_
 
 Machines within the network can only be accessed by SSH.
 - The only machine that is able to connect to ELK VM is Jump Box from private IP Address 10.0.0.4_
@@ -68,7 +67,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Images/Docker-ELK.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
