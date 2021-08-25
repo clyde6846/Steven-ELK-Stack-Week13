@@ -1,7 +1,7 @@
 # Steven-ELK-Stack-Week13
 Repository for Documentation, scripts, diagrams for ELK Stack Project.  The goal of this project is to  generate a live ELK deployment on Azure
 The source files located in this repository were used to configure the network depicted below.
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![TODO: Update the path with the name of your diagram](C:\Users\16465\Steven-ELK-Stack-Week13\Diagrams\NetworkDiagram-Steven.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the specific YAML configuration file may be used to install only certain pieces of it, such as Filebeat.
 
