@@ -11,6 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [Filebeat Playbook file](Ansible/filebeat-playbook.yml)
 - [Metricbeat Configuration file](Ansible/metricbeat-config.yml)
 - [Metricbeatbeat Playbook file](Ansible/metricbeat-playbook.yml)
+- [File containing the HTTP address of the VMs (servers) and ELK server](Ansible/hosts)
 
 This document contains the following details:
 - Description of the Network Topology I created
