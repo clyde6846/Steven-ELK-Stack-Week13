@@ -114,5 +114,5 @@ _The commands needed to run the Ansible configuration for the Elk-Server are:
 - ansible-playbook filebeat-playbook.yml
 - ansible-playbook metricbeat-playbook.yml
 - navigate to  http://52.252.131.6:5601/ to verify correct installation.
--    [Filebeat generated sample Log output](diagrams/Logs-Output.png)
--    [Metricbeat generated statistics Log output](diagrams/Metrics-Output.png)
+-    [Filebeat generated sample Log output](Diagrams/Logs-Output.PNG)
+-    [Metricbeat generated statistics Log output](Diagrams/Metrics-Output.PNG)
