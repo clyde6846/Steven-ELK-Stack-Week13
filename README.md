@@ -38,7 +38,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
+| Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | WEB 1-A  | Backend  | 10.0.0.7   | Linux            |
 | WEB 2    | Backend  | 10.0.0.6   | Linux            |
 | ELK      | Analytics| 10.1.0.4   | Linux            |
@@ -56,7 +56,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | Private Workstation  |
+| Jump Box | Yes                 | Private WS IP        |
 | Web1A    | No                  | 10.0.0.4             |
 | WEB2     | No                  | 10.0.0.4             |  
 | ELK      | No                  | 10.0.0.4             |
@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 
 _The commands needed to run the Ansible configuration for the Elk-Server are:
 
-- ssh azadmin@20.42.113.25
+- ssh azadmin@xx.42.xxx.25
 - (type in the password for azadmin)
 - sudo docker ps -a
 - sudo docker start container (name of the container)
